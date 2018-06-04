@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abc.myapplication1.MainActivity1"
+    android:orientation="vertical"
+    android:background="#140138">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding=""
+        android:background="#30a0e1"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_launcher_foreground"
+
+       />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:background="#35deea"
+            android:src="@drawable/ic_launcher_foreground"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:background="#35d761"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_launcher_foreground"/>
+
+        <ImageView
+            android:layout_width="0"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="#1563bf"
+            android:src="@drawable/ic_launcher_foreground"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:background="#e2702e"
+            android:src="@drawable/ic_launcher_foreground"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:background="#851cd6"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_launcher_foreground"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:background="#dc0d2c"
+            android:src="@drawable/ic_launcher_foreground"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#059e17"
+        android:padding="5dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_launcher_foreground"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#0adac2"
+        android:padding="5dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+
+</LinearLayout>
